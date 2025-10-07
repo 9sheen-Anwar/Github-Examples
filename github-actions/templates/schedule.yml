@@ -1,7 +1,7 @@
 on:
   schedule:
     - cron: '*/5 * * * *'
-  workflow_dispatch:  #to run this workflow on form repo
+  workflow_dispatch:  #to run this workflow on form repository
 
 jobs:
   hello_world:
